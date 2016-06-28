@@ -1,0 +1,14 @@
+{
+	"name": "timkelty/craft-measurement'",
+	"description": "Measurement fieldtype for Craft CMS.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Tim Kelty",
+			"homepage": "http://fusionary.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

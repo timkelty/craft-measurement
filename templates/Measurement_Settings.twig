@@ -1,0 +1,12 @@
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "measurement/css/Measurement_Style.css" %}
+{% includeJsResource "measurement/js/Measurement_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting',
+    value: settings['someSetting']})
+}}
